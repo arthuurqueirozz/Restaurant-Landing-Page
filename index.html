@@ -22,7 +22,7 @@
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="navegation-menu">
                 <ul class="nav nav-pills d-block d-md-flex">
-                    <li class="nav-item fw-bold">
+                    <li class="nav-item fw-bold active">
                         <a href="#about" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre o restaurante
@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link">
+                        <a href="#contact" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Fale conosco
                         </a>
@@ -83,7 +83,7 @@
                         <div class="col-md-5">
                             <img class="d-block w-100 rounded" src="./images/restaurante.jpg">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3">
                             <h2 class="section-title">Sobre <span>o restaurante</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae
                                 quaerat quae ipsum. Excepturi eaque maiores dolorum? Incidunt, est? Expedita
@@ -365,7 +365,73 @@
         </section>
     </div>
 
-
+    <div data-bs-spy="scroll" data-bs-target="header-id" class="bg-light">
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="section-title text-center">
+                    Fale <span class="text-colored">conosco</span>
+                </h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="fw-bold text-colored form-label">Seu nome</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="fw-bold text-colored form-label">Seu e-mail</label>
+                                <input type="email" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="fw-bold text-colored form-label">Seu telefone (opcional)</label>
+                                <input type="tel" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="fw-bold text-colored form-label">Sua mensagem</label>
+                                <textarea id="message" class="form-control" requiredform-control></textarea>
+                            </div>
+                            <button class="btn fw-bold" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n.° 469, Bairro Código - Belém - PA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
